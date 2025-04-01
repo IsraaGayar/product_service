@@ -74,15 +74,18 @@ def create_superuser():
         username='superuser', is_superuser=True
     )
     user.set_password('password')
+    user.save()
 
 def create_staffuser():
     user = User.objects.create(
         username='staffuser', is_staff=True
     )
     user.set_password('password')
+    user.save()
 
 def create_user():
     user = User.objects.create(
-        username='testuser', is_superuser=True
+        username='testuser',
     )
     user.set_password('password')
+    user.save()
