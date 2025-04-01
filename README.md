@@ -4,6 +4,12 @@ product_service is a Django REST Framework app managing products and users, demo
 
 This Django REST Framework application provides APIs for managing products, categories, and users. It also includes token-based authentication using JWT.
 
+This project is made as an assesment project for  Paymob –Backend Engineer Position, and the product authentication part was added to the required task, as along as the over all jwtauthentication
+
+# Postman Collection
+ postman collection [link](https://www.postman.com/israagayar/product-service/collection/0c056ef/django-assessment-api?action=share&creator=18684679)
+
+
 ## Features
 
 -   **Product Management:**
